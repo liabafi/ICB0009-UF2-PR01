@@ -1,0 +1,5 @@
+C:\Users\lbatl\Desktop\ICB0009-UF2-PR01\ICB0009-UF2-PR01\Ejercicio1\Tarea1\obj\Debug\net8.0\Tarea1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lbatl\Desktop\ICB0009-UF2-PR01\ICB0009-UF2-PR01\Ejercicio1\Tarea1\obj\Debug\net8.0\Tarea1.AssemblyInfoInputs.cache
+C:\Users\lbatl\Desktop\ICB0009-UF2-PR01\ICB0009-UF2-PR01\Ejercicio1\Tarea1\obj\Debug\net8.0\Tarea1.AssemblyInfo.cs
+C:\Users\lbatl\Desktop\ICB0009-UF2-PR01\ICB0009-UF2-PR01\Ejercicio1\Tarea1\obj\Debug\net8.0\Tarea1.csproj.CoreCompileInputs.cache
+C:\Users\lbatl\Desktop\ICB0009-UF2-PR01\ICB0009-UF2-PR01\Ejercicio1\Tarea1\obj\Debug\net8.0\Tarea1.sourcelink.json
