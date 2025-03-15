@@ -2,7 +2,6 @@
 using System.Threading;
 using System.Collections.Generic;
 
-// Proyecto para .NET 8, simulamos pacientes con datos en un hospital
 public class Paciente {
     public int Id { get; set; }
     public int LlegadaHospital { get; set; }
@@ -22,7 +21,7 @@ class Program {
     static bool[] medicosOcupados = new bool[4]; // Para saber si un médico está ocupado
 
     static void Main(string[] args) {
-        Console.WriteLine("Inicio de la simulación");
+        Console.WriteLine("=== Inicio de la simulación ===\n");
 
         List<Thread> pacientes = new List<Thread>();
         int tiempoActual = 0; // Tiempo en segundos 
@@ -46,7 +45,7 @@ class Program {
             p.Join();
         }
 
-        Console.WriteLine("Todos los pacientes han sido atendidos");
+        Console.WriteLine("=== Todos los pacientes han sido atendidos ===");
     }
 
     static void AtenderPaciente(Paciente paciente, int numeroLlegada) {
@@ -68,11 +67,13 @@ class Program {
         if (medicoAsignado != -1) {
             paciente.Estado = 1; // Atendiendo
             Console.WriteLine($"Paciente {numeroLlegada} (ID: {paciente.Id}) está siendo atendido por el médico {medicoAsignado}");
+            Console.WriteLine();
             Thread.Sleep(paciente.TiempoConsulta * 1000); // Simular tiempo de consulta
 
             paciente.Estado = 2; // Finalizado
             Console.WriteLine($"Paciente {numeroLlegada} (ID: {paciente.Id}) sale de la consulta tras {paciente.TiempoConsulta}s");
-
+            Console.WriteLine();
+            
             // Liberar médico
             lock (medicosOcupados) {
                 medicosOcupados[medicoAsignado - 1] = false;

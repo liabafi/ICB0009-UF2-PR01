@@ -4,10 +4,11 @@ using System.Collections.Generic;
 
 class Program {
     static Random random = new Random(); // Para asignar médicos aleatorios
-    static bool medicosOcupados = new bool[4]; // Para saber si un médico está ocupado
+    static bool[] medicosOcupados = new bool[4]; // Para saber si un médico está ocupado
 
     static void Main(string[] args) {
-        Console.WriteLine("Inicio de la simulación");
+        Console.WriteLine("=== Inicio de la simulación ===");
+        Console.WriteLine();
 
         // Lista para los pacientes
         List<Thread> pacientes = new List<Thread>();
@@ -25,12 +26,13 @@ class Program {
         foreach (Thread p in pacientes) {
             p.Join();
         }
-
-        Console.WriteLine("Todo los pacientes han sido atendidos");
+        Console.WriteLine();
+        Console.WriteLine("=== Todo los pacientes han sido atendidos ===");
     }
 
     static void AtenderPaciente(int numPaciente) {
         Console.WriteLine("Paciente " + numPaciente + " ha llegado al hospital.");
+        Console.WriteLine();
 
         // Buscar un médico disponible
         int medicoAsignado = -1;

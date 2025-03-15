@@ -22,6 +22,5 @@ No siempre sale el mismo paciente primero porque el tiempo de consulta es aleato
 Aquí está la captura de la salida. La hice con "Imp Pant" y la pegué abajo.
 
 ---
+![Captura de salida](image-1.png)
 
-![Captura de salida](image.png)
-*(Nota: Aquí iría la imagen pegada y ajustada si fuera necesario)*   
