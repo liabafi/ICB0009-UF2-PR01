@@ -25,4 +25,4 @@ Sí, los pacientes entran a las pruebas de diagnóstico por orden de llegada por
 
 Aquí está la captura de la salida. La hice con "Imp Pant" y la pegué abajo.
 
----
+![Captura de salida](image.png)
