@@ -109,12 +109,22 @@ class Program {
                     // Estado Finalizado
                     paciente.Estado = 3;
                     estadoText = paciente.Estado == 3 ? "Finalizado" : "Espera Diagnóstico";
+
                     // Liberar máquina
                     lock (maquinasOcupadas) {
                         maquinasOcupadas[maquinaAsignada - 1] = false;
                     }
                 }
             }
+            else {
+                // Estado Finalizado 
+                paciente.Estado = 3;
+                estadoText = paciente.Estado == 3 ? "Finalizado" : "Consulta";
+                Console.WriteLine($"Paciente {paciente.Id}. Llegado el  {numeroLlegada}. Estado: {estadoText}. Duración Consulta: {paciente.TiempoConsulta} segundos.");
+                Console.WriteLine();
+            }
+        } else {
+            Console.WriteLine($"Paciente {paciente.Id}. No encuentra médico.");
         }
     }
 }
