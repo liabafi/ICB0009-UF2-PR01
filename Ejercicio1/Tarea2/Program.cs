@@ -34,7 +34,7 @@ class Program {
             Paciente paciente = new Paciente(id, tiempoActual, tiempoConsulta);
 
             MostrarMensaje mostrar = Console.WriteLine; // Delegate
-            mostrar($"Paciente {paciente.Id} (Orden {i}) ha llegado al hospital en t={paciente.LlegadaHospital}s");
+            mostrar($"Paciente {paciente.Id} (Orden {i}) ha llegado al hospital en {paciente.LlegadaHospital}s");
             Thread hilo = new Thread(() => AtenderPaciente(paciente, i, mostrar));
             pacientes.Add(hilo); // Añadir hilo a la lista
             hilo.Start(); // Iniciar hilo
