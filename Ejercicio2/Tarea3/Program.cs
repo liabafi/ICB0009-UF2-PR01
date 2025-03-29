@@ -25,7 +25,7 @@ class Program {
     delegate void MostrarMensaje(string mensaje); // Delegate para mensajes
 
     static void Main(string[] args) {
-        Console.WriteLine("=== Simulación de 20 pacientes empezando ===");
+        Console.WriteLine("=== Simulación de 20 pacientes empezando ===\n");
 
         List<Thread> pacientes = new List<Thread>();
         int tiempoActual = 0;
@@ -53,7 +53,7 @@ class Program {
             hilo.Join();
         }
 
-        Console.WriteLine("=== Todos los pacientes han terminado ===");
+        Console.WriteLine("\n=== Todos los pacientes han terminado ===");
     }
 
     static void AtenderPaciente(Paciente paciente, int numeroLlegada, MostrarMensaje mostrar) {
@@ -61,7 +61,7 @@ class Program {
         try {
             // Estado Consulta
             paciente.Estado = 1;
-            mostrar($"Paciente {paciente.Id}. Estado: Consulta. Duración Espera: {numeroLlegada - paciente.LlegadaHospital} segundos");
+            mostrar($"Paciente {paciente.Id}. Llegado el {numeroLlegada}. Estado: Consulta. Duración Espera: variable");
             Thread.Sleep(paciente.TiempoConsulta * 1000); // Simula el tiempo de consulta
         } finally {
             semaforoMedicos.Release(); // Libera el médico
