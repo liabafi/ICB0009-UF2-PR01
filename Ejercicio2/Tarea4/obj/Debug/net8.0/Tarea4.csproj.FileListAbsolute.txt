@@ -1,0 +1,15 @@
+C:\Users\lbatl\Desktop\ICB0009-UF2-PR01\ICB0009-UF2-PR01\Ejercicio2\Tarea4\bin\Debug\net8.0\Tarea4.exe
+C:\Users\lbatl\Desktop\ICB0009-UF2-PR01\ICB0009-UF2-PR01\Ejercicio2\Tarea4\bin\Debug\net8.0\Tarea4.deps.json
+C:\Users\lbatl\Desktop\ICB0009-UF2-PR01\ICB0009-UF2-PR01\Ejercicio2\Tarea4\bin\Debug\net8.0\Tarea4.runtimeconfig.json
+C:\Users\lbatl\Desktop\ICB0009-UF2-PR01\ICB0009-UF2-PR01\Ejercicio2\Tarea4\bin\Debug\net8.0\Tarea4.dll
+C:\Users\lbatl\Desktop\ICB0009-UF2-PR01\ICB0009-UF2-PR01\Ejercicio2\Tarea4\bin\Debug\net8.0\Tarea4.pdb
+C:\Users\lbatl\Desktop\ICB0009-UF2-PR01\ICB0009-UF2-PR01\Ejercicio2\Tarea4\obj\Debug\net8.0\Tarea4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lbatl\Desktop\ICB0009-UF2-PR01\ICB0009-UF2-PR01\Ejercicio2\Tarea4\obj\Debug\net8.0\Tarea4.AssemblyInfoInputs.cache
+C:\Users\lbatl\Desktop\ICB0009-UF2-PR01\ICB0009-UF2-PR01\Ejercicio2\Tarea4\obj\Debug\net8.0\Tarea4.AssemblyInfo.cs
+C:\Users\lbatl\Desktop\ICB0009-UF2-PR01\ICB0009-UF2-PR01\Ejercicio2\Tarea4\obj\Debug\net8.0\Tarea4.csproj.CoreCompileInputs.cache
+C:\Users\lbatl\Desktop\ICB0009-UF2-PR01\ICB0009-UF2-PR01\Ejercicio2\Tarea4\obj\Debug\net8.0\Tarea4.sourcelink.json
+C:\Users\lbatl\Desktop\ICB0009-UF2-PR01\ICB0009-UF2-PR01\Ejercicio2\Tarea4\obj\Debug\net8.0\Tarea4.dll
+C:\Users\lbatl\Desktop\ICB0009-UF2-PR01\ICB0009-UF2-PR01\Ejercicio2\Tarea4\obj\Debug\net8.0\refint\Tarea4.dll
+C:\Users\lbatl\Desktop\ICB0009-UF2-PR01\ICB0009-UF2-PR01\Ejercicio2\Tarea4\obj\Debug\net8.0\Tarea4.pdb
+C:\Users\lbatl\Desktop\ICB0009-UF2-PR01\ICB0009-UF2-PR01\Ejercicio2\Tarea4\obj\Debug\net8.0\Tarea4.genruntimeconfig.cache
+C:\Users\lbatl\Desktop\ICB0009-UF2-PR01\ICB0009-UF2-PR01\Ejercicio2\Tarea4\obj\Debug\net8.0\ref\Tarea4.dll

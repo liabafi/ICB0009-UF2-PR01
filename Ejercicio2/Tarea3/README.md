@@ -23,8 +23,10 @@ Uso `SemaphoreSlim` para limitar a 4 médicos y 2 máquinas. Los pacientes llega
 
 ## Respuesta a la Pregunta 2
 
-### ¿Los pacientes que deben esperar entran luego a la consulta por orden de llegada? Explica qué tipo de pruebas has realizado para comprobar este comportamiento.
+### ¿Los pacientes que deben esperar entran luego a la consulta por orden de llegada? Explica qué tipo de pruebas has realizado para comprobar este comportamiento
+
 Sí, entran por orden de llegada porque los hilos se crean en orden (1, 2, ..., 20) y `semaforoMedicos.Wait()` los deja pasar en ese orden cuando hay médicos libres. Los primeros 4 entran directo, y los siguientes esperan hasta que un médico se libera, respetando la fila.
 
 ## Captura de Pantalla
+
 ![Captura de salida](image.png)
